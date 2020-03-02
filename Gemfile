@@ -27,4 +27,5 @@ gem 'jbuilder', '~> 2.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-# Use Capistr
+# Use Capistrano for deployment
+# gem 'capistra
