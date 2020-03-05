@@ -36,4 +36,4 @@ group :development, :test do
 end
 
 group :development do
-  # Ac
+  # Access an IRB console on exception p
