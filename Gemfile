@@ -38,4 +38,5 @@ end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 3.0'
-  gem 'lis
+  gem 'listen', '~> 3.0.5'
+  # Spring speeds up developmen
