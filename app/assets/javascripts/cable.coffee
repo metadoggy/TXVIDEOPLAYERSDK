@@ -5,4 +5,7 @@
 #
 #= require action_cable
 #= require_self
-#= req
+#= require_tree ./channels
+#
+@App ||= {}
+App.cab
