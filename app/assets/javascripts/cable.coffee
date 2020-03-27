@@ -8,4 +8,4 @@
 #= require_tree ./channels
 #
 @App ||= {}
-App.cab
+App.cable = ActionCable.createConsumer()
