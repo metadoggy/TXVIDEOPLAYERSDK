@@ -1,1 +1,1 @@
-App.st
+App.stocks = App.cable.subscriptions.create "S
