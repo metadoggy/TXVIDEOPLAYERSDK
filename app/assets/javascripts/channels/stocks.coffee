@@ -1,3 +1,4 @@
 App.stocks = App.cable.subscriptions.create "StocksChannel",
   connected: ->
-    # Called when the subscription is ready for use on
+    # Called when the subscription is ready for use on the server
+    unless @callbackSet  # set
