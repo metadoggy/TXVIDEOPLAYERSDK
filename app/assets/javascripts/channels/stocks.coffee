@@ -4,4 +4,6 @@ App.stocks = App.cable.subscriptions.create "StocksChannel",
     unless @callbackSet  # set a callback to listen to the new stream after every page change.
       $(document).on 'turbolinks:load', -> App.stocks.follow()
       @callbackSet = true
-    @follow() 
+    @follow() # Call follow the initial time.
+
+  d
