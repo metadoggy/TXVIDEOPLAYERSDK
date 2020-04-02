@@ -6,4 +6,5 @@ App.stocks = App.cable.subscriptions.create "StocksChannel",
       @callbackSet = true
     @follow() # Call follow the initial time.
 
-  d
+  disconnected: ->
+    # Called when the subscriptio
