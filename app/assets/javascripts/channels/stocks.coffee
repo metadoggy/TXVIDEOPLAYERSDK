@@ -9,4 +9,5 @@ App.stocks = App.cable.subscriptions.create "StocksChannel",
   disconnected: ->
     # Called when the subscription has been terminated by the server
 
-  rec
+  received: (data) ->
+    # Called when there's
