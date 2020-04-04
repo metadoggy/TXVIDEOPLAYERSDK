@@ -15,4 +15,4 @@ App.stocks = App.cable.subscriptions.create "StocksChannel",
     $("#" + data.symbol + " #price").text(data.price)
 
   follow: ->
-    @unfollow_
+    @unfollow_all()  # Stop listening to all s
