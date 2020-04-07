@@ -16,4 +16,5 @@ App.stocks = App.cable.subscriptions.create "StocksChannel",
 
   follow: ->
     @unfollow_all()  # Stop listening to all streams
-    if $("body").attr("data-stream-id")  # Listen to next stream if there is
+    if $("body").attr("data-stream-id")  # Listen to next stream if there is one.
+      @perform 'follow', stock:
