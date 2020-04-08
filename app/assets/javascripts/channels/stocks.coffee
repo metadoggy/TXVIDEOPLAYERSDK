@@ -20,4 +20,4 @@ App.stocks = App.cable.subscriptions.create "StocksChannel",
       @perform 'follow', stock: $("body").data("stream-id")
 
   unfollow_all: ->
-   
+    @perform 'unfollow_all'
