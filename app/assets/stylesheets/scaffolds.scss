@@ -23,4 +23,9 @@ pre {
 a {
   color: #000;
 
-  &:visit
+  &:visited {
+    color: #666;
+  }
+
+  &:hover {
+   
