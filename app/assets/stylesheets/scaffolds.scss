@@ -44,4 +44,5 @@ td {
 }
 
 div {
-  &.f
+  &.field, &.actions {
+    margin-bottom: 1
