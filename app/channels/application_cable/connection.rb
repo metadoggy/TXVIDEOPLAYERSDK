@@ -1,1 +1,1 @@
-# Be sure to restart your server when you modify this file. Action C
+# Be sure to restart your server when you modify this file. Action Cable runs in a loop that does not su
