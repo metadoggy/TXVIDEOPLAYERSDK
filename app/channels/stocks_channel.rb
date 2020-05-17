@@ -14,3 +14,5 @@ class StocksChannel < ApplicationCable::Channel
 
   def unfollow_all
     stop_all_streams # Added call to 'stop_all_streams'
+  end
+end
