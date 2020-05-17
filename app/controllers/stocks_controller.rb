@@ -1,1 +1,2 @@
-class StocksController < App
+class StocksController < ApplicationController
+  before
