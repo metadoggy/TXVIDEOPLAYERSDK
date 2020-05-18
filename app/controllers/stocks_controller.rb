@@ -1,2 +1,2 @@
 class StocksController < ApplicationController
-  before
+  before_action :set_stock, only: [:show, :edi
