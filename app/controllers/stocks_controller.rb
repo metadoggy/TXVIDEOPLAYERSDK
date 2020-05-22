@@ -18,4 +18,8 @@ class StocksController < ApplicationController
   end
 
   # GET /stocks/1/edit
-  def e
+  def edit
+  end
+
+  # POST /stocks
+  # POS
