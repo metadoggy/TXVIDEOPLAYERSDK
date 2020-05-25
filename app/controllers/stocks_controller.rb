@@ -22,4 +22,6 @@ class StocksController < ApplicationController
   end
 
   # POST /stocks
-  # POS
+  # POST /stocks.json
+  def create
+    @stock = S
