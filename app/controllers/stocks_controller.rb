@@ -26,4 +26,6 @@ class StocksController < ApplicationController
   def create
     @stock = Stock.new(stock_params)
 
-    respond_to
+    respond_to do |format|
+      if @stock.save
+        form
