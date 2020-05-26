@@ -28,4 +28,4 @@ class StocksController < ApplicationController
 
     respond_to do |format|
       if @stock.save
-        form
+        format.html { redirect_to @stock, notice: 'S
