@@ -29,4 +29,4 @@ class StocksController < ApplicationController
     respond_to do |format|
       if @stock.save
         format.html { redirect_to @stock, notice: 'Stock was successfully created.' }
-  
+        format.json { render :show, statu
