@@ -31,4 +31,5 @@ class StocksController < ApplicationController
         format.html { redirect_to @stock, notice: 'Stock was successfully created.' }
         format.json { render :show, status: :created, location: @stock }
       else
-   
+        format.html { render :new }
+        format.
