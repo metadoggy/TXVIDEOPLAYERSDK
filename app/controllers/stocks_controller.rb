@@ -32,4 +32,9 @@ class StocksController < ApplicationController
         format.json { render :show, status: :created, location: @stock }
       else
         format.html { render :new }
-        format.json { render json: @stock.errors, status: :unprocessa
+        format.json { render json: @stock.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
+  # PATCH/P
