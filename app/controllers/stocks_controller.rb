@@ -37,4 +37,5 @@ class StocksController < ApplicationController
     end
   end
 
-  # PATCH/P
+  # PATCH/PUT /stocks/1
+  # PATCH/PUT /stocks/1.j
