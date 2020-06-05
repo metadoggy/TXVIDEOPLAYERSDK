@@ -40,4 +40,5 @@ class StocksController < ApplicationController
   # PATCH/PUT /stocks/1
   # PATCH/PUT /stocks/1.json
   def update
-    respond_t
+    respond_to do |format|
+      if @stock.update(stock_para
