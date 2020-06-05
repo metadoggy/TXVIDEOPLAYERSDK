@@ -41,4 +41,5 @@ class StocksController < ApplicationController
   # PATCH/PUT /stocks/1.json
   def update
     respond_to do |format|
-      if @stock.update(stock_para
+      if @stock.update(stock_params)
+        format.html { redirect_to @stock, notic
