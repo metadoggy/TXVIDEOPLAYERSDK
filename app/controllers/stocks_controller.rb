@@ -38,4 +38,6 @@ class StocksController < ApplicationController
   end
 
   # PATCH/PUT /stocks/1
-  # PATCH/PUT /stocks/1.j
+  # PATCH/PUT /stocks/1.json
+  def update
+    respond_t
