@@ -42,4 +42,5 @@ class StocksController < ApplicationController
   def update
     respond_to do |format|
       if @stock.update(stock_params)
-        format.html { redirect_to @stock, notic
+        format.html { redirect_to @stock, notice: 'Stock was successfully updated.' }
+        for
