@@ -43,4 +43,5 @@ class StocksController < ApplicationController
     respond_to do |format|
       if @stock.update(stock_params)
         format.html { redirect_to @stock, notice: 'Stock was successfully updated.' }
-        format.json { render :show, status: :ok, 
+        format.json { render :show, status: :ok, location: @stock }
+      else
