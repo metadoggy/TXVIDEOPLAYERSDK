@@ -45,3 +45,5 @@ class StocksController < ApplicationController
         format.html { redirect_to @stock, notice: 'Stock was successfully updated.' }
         format.json { render :show, status: :ok, location: @stock }
       else
+        format.html { render :edit }
+   
