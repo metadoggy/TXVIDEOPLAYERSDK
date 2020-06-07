@@ -46,4 +46,4 @@ class StocksController < ApplicationController
         format.json { render :show, status: :ok, location: @stock }
       else
         format.html { render :edit }
-        format.json { render json: @stock.error
+        format.json { render json: @stock.errors, status: :unprocessable_entit
