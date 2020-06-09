@@ -55,4 +55,5 @@ class StocksController < ApplicationController
   # DELETE /stocks/1.json
   def destroy
     @stock.destroy
-   
+    respond_to do |format|
+      format.html { redirect_to stoc
