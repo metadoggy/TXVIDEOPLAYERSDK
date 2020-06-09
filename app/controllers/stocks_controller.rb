@@ -51,4 +51,5 @@ class StocksController < ApplicationController
     end
   end
 
-  # DELETE /st
+  # DELETE /stocks/1
+  # DELETE /stocks/1.
