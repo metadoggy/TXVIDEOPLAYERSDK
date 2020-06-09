@@ -52,4 +52,7 @@ class StocksController < ApplicationController
   end
 
   # DELETE /stocks/1
-  # DELETE /stocks/1.
+  # DELETE /stocks/1.json
+  def destroy
+    @stock.destroy
+   
