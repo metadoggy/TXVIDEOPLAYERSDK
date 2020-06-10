@@ -56,4 +56,5 @@ class StocksController < ApplicationController
   def destroy
     @stock.destroy
     respond_to do |format|
-      format.html { redirect_to stocks_url, notice: 'Stock was successfully 
+      format.html { redirect_to stocks_url, notice: 'Stock was successfully destroyed.' }
+      format.json { head :no
