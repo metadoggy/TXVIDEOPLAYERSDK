@@ -62,4 +62,4 @@ class StocksController < ApplicationController
   end
 
   private
-    # Use c
+    # Use callbacks to share common setup or constraints betw
