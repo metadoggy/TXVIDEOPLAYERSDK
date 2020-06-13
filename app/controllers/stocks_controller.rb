@@ -67,4 +67,4 @@ class StocksController < ApplicationController
       @stock = Stock.find(params[:id])
     end
 
-    # Never trust parameters fr
+    # Never trust parameters from the scary internet, only allow 
