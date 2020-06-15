@@ -1,1 +1,1 @@
-c
+class ApplicationMailer < ActionMailer::Bas
