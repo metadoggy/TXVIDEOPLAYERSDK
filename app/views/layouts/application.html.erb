@@ -9,4 +9,5 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => 'reload' %>
   </head>
 
-  <body<% if content_for? :stock_id %> data-stream-id="<%
+  <body<% if content_for? :stock_id %> data-stream-id="<%= yield( :stock_id ) %>"<% end %>>
+  
