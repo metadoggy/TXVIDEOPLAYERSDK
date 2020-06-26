@@ -10,4 +10,6 @@
   </head>
 
   <body<% if content_for? :stock_id %> data-stream-id="<%= yield( :stock_id ) %>"<% end %>>
-  
+    <%= yield %>
+  </body>
+</html>
