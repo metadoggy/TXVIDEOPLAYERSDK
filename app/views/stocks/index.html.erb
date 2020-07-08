@@ -1,0 +1,22 @@
+
+<% provide :stock_id, "all_stocks" %>
+<p id="notice"><%= notice %></p>
+
+<h1>Stocks</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Symbol</th>
+      <th>Price</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @stocks.each do |stock| %>
+      <tr id="<%= stock.symbol %>">
+        <td><%= stock.symbol %></td>
+        <td id="price"><%= stock.price %></td>
+        <td><%= link_to 'Show', stock %></td>
+        <td><%= link_to 'Edit', edit_stock_path(stock) %></td>
