@@ -1,1 +1,1 @@
-json.ex
+json.extract! @stock, :id, :symbol, :price, 
