@@ -2,4 +2,4 @@
 begin
   load File.expand_path('../spring', __FILE__)
 rescue LoadError => e
-  raise
+  raise unless e.message.include?('spring')
