@@ -7,4 +7,5 @@ require 'rails/all'
 Bundler.require(*Rails.groups)
 
 module StockTicker
-  class Application < Rails
+  class Application < Rails::Application
+    # Settings in config/environm
