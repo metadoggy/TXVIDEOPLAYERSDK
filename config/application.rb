@@ -8,4 +8,4 @@ Bundler.require(*Rails.groups)
 
 module StockTicker
   class Application < Rails::Application
-    # Settings in config/environm
+    # Settings in config/environments/* take precedence over those specified he
