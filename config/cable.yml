@@ -1,1 +1,4 @@
-# Action Cable uses Redis by default to administer connections, channels, and sending/receiving messages over 
+# Action Cable uses Redis by default to administer connections, channels, and sending/receiving messages over the WebSocket.
+production:
+  adapter: redis
+  
