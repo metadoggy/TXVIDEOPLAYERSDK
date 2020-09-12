@@ -22,4 +22,4 @@ Rails.application.configure do
   config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
 
-  # Do not fallback to asset
+  # Do not fallback to assets pipeline if a precompiled ass
