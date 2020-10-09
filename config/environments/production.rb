@@ -36,4 +36,4 @@ Rails.application.configure do
 
   # Specifies the header that your server uses for sending files.
   # config.action_dispatch.x_sendfile_header = 'X-Sendfile' # for Apache
-  # config.action_dispatch.x_sendfile_hea
+  # config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect' # for NGI
