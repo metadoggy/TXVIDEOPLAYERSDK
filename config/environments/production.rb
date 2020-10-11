@@ -40,4 +40,6 @@ Rails.application.configure do
 
   # Action Cable endpoint configuration
   # config.action_cable.url = 'wss://example.com/cable'
-  # config.action_cable.allowed_request_origins = [ 'http://example.c
+  # config.action_cable.allowed_request_origins = [ 'http://example.com', /http:\/\/example.*/ ]
+
+  # Force al
