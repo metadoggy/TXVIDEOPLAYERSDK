@@ -53,4 +53,5 @@ Rails.application.configure do
   config.log_tags = [ :request_id ]
 
   # Use a different logger for distributed setups.
-  # requir
+  # require 'syslog/logger'
+  # config.logger = ActiveSupport::T
