@@ -60,4 +60,5 @@ Rails.application.configure do
     config.logger = ActiveSupport::TaggedLogging.new(Logger.new(STDOUT))
   end
 
-  # Use a different cache
+  # Use a different cache store in production.
+  # config
