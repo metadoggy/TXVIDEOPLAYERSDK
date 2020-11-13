@@ -61,4 +61,6 @@ Rails.application.configure do
   end
 
   # Use a different cache store in production.
-  # config
+  # config.cache_store = :mem_cache_store
+
+  # 
