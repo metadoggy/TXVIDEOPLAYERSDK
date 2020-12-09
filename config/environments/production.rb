@@ -63,4 +63,4 @@ Rails.application.configure do
   # Use a different cache store in production.
   # config.cache_store = :mem_cache_store
 
-  # Use a real queuing backend for Acti
+  # Use a real queuing backend for Active Job (and separate queues per environment)
