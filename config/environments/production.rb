@@ -68,4 +68,4 @@ Rails.application.configure do
   # config.active_job.queue_name_prefix = "stock-ticker_#{Rails.env}"
   config.action_mailer.perform_caching = false
 
-  # Ignore bad ema
+  # Ignore bad email addresses and do not raise emai
