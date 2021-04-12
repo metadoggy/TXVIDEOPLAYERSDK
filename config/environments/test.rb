@@ -7,4 +7,5 @@ Rails.application.configure do
   # and recreated between test runs. Don't rely on the data there!
   config.cache_classes = true
 
-  # Do not eager load code on boot. This avoids loading your wh
+  # Do not eager load code on boot. This avoids loading your whole application
+  # just for the 
