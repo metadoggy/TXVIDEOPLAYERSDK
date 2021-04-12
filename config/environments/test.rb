@@ -9,4 +9,4 @@ Rails.application.configure do
 
   # Do not eager load code on boot. This avoids loading your whole application
   # just for the purpose of running a single test. If you are using a tool that
-  # preloads 
+  # preloads Rails for running tests, you may hav
