@@ -13,4 +13,5 @@ Rails.application.configure do
   config.eager_load = false
 
   # Configure public file server for tests with Cache-Control for performance.
-  config.pub
+  config.public_file_server.enabled = true
+  config
