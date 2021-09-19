@@ -1,1 +1,3 @@
-# Be sure to restart your server when you
+# Be sure to restart your server when you modify this file.
+
+# Specify a seria
