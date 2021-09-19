@@ -1,4 +1,4 @@
 # Be sure to restart your server when you modify this file.
 
 # Do not halt callback chains when a callback returns false. This is a new
-# Rails 5.0 default, so it is introduced 
+# Rails 5.0 default, so it is introduced as a configuration option to ensur
