@@ -1,3 +1,4 @@
 # Be sure to restart your server when you modify this file.
 
-# Enable ori
+# Enable origin-checking CSRF mitigation.
+Rails.ap
