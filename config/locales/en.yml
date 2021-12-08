@@ -6,4 +6,4 @@
 #
 #     I18n.t 'hello'
 #
-# In 
+# In views, this is aliased to just `t`:
