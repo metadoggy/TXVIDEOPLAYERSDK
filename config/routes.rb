@@ -1,2 +1,3 @@
 Rails.application.routes.draw do
-  resources :stoc
+  resources :stocks
+  # For details on the DSL available 
