@@ -5,4 +5,6 @@ class CreateStocks < ActiveRecord::Migration[5.0]
       t.decimal :price, precision: 8, scale: 2
 
       t.timestamps
-   
+    end
+  end
+end
