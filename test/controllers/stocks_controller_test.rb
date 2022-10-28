@@ -1,3 +1,5 @@
 require 'test_helper'
 
-class StocksControllerTest < ActionDispatch::Inte
+class StocksControllerTest < ActionDispatch::IntegrationTest
+  setup do
+    @s
