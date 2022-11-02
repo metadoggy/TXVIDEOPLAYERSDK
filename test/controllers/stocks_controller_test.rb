@@ -5,4 +5,6 @@ class StocksControllerTest < ActionDispatch::IntegrationTest
     @stock = stocks(:one)
   end
 
-  test "should get index"
+  test "should get index" do
+    get stocks_url
+    assert_response :succe
