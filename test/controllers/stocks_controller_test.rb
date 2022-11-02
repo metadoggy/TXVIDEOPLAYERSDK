@@ -2,4 +2,7 @@ require 'test_helper'
 
 class StocksControllerTest < ActionDispatch::IntegrationTest
   setup do
-    @s
+    @stock = stocks(:one)
+  end
+
+  test "should get index"
