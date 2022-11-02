@@ -11,4 +11,8 @@ class StocksControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get new" do
-    get new_sto
+    get new_stock_url
+    assert_response :success
+  end
+
+  test "s
