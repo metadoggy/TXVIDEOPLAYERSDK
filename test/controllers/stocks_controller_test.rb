@@ -7,4 +7,8 @@ class StocksControllerTest < ActionDispatch::IntegrationTest
 
   test "should get index" do
     get stocks_url
-    assert_response :succe
+    assert_response :success
+  end
+
+  test "should get new" do
+    get new_sto
