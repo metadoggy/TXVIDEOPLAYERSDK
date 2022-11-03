@@ -15,4 +15,5 @@ class StocksControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "s
+  test "should create stock" do
+    assert_difference(
