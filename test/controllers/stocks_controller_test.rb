@@ -17,4 +17,4 @@ class StocksControllerTest < ActionDispatch::IntegrationTest
 
   test "should create stock" do
     assert_difference('Stock.count') do
-      post stocks_
+      post stocks_url, params: { stock: { price: @stock.price,
