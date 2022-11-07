@@ -16,4 +16,5 @@ class StocksControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should create stock" do
-    assert_difference(
+    assert_difference('Stock.count') do
+      post stocks_
