@@ -20,4 +20,5 @@ class StocksControllerTest < ActionDispatch::IntegrationTest
       post stocks_url, params: { stock: { price: @stock.price, symbol: @stock.symbol } }
     end
 
-    ass
+    assert_redirected_to stock_path(Stock.last)
+  
