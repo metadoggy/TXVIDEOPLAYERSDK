@@ -21,4 +21,7 @@ class StocksControllerTest < ActionDispatch::IntegrationTest
     end
 
     assert_redirected_to stock_path(Stock.last)
-  
+  end
+
+  test "should show stock" do
+    get sto
