@@ -24,4 +24,5 @@ class StocksControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should show stock" do
-    get sto
+    get stock_url(@stock)
+    assert_response :
