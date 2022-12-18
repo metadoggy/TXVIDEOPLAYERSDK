@@ -34,4 +34,4 @@ class StocksControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update stock" do
-    patch stock_url(@
+    patch stock_url(@stock), params: { stock: { price: @stock.price
