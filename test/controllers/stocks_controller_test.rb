@@ -33,4 +33,5 @@ class StocksControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "
+  test "should update stock" do
+    patch stock_url(@
