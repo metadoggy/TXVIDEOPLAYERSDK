@@ -30,4 +30,7 @@ class StocksControllerTest < ActionDispatch::IntegrationTest
 
   test "should get edit" do
     get edit_stock_url(@stock)
- 
+    assert_response :success
+  end
+
+  test "
