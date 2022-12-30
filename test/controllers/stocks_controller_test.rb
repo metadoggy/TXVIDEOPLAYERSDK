@@ -40,4 +40,7 @@ class StocksControllerTest < ActionDispatch::IntegrationTest
 
   test "should destroy stock" do
     assert_difference('Stock.count', -1) do
-      delet
+      delete stock_url(@stock)
+    end
+
+    assert
