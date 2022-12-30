@@ -38,4 +38,5 @@ class StocksControllerTest < ActionDispatch::IntegrationTest
     assert_redirected_to stock_path(@stock)
   end
 
-  test 
+  test "should destroy stock" do
+    assert_dif
