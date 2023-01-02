@@ -43,4 +43,6 @@ class StocksControllerTest < ActionDispatch::IntegrationTest
       delete stock_url(@stock)
     end
 
-    assert
+    assert_redirected_to stocks_path
+  end
+end
