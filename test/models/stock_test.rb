@@ -1,1 +1,3 @@
-require 'test_he
+require 'test_helper'
+
+class StockTest < ActiveSuppor
