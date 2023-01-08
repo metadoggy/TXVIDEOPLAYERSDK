@@ -5,4 +5,5 @@ one:
   price: 9.99
 
 two:
-  symbol:
+  symbol: MyString
+  price: 9.99
