@@ -1,3 +1,5 @@
 require 'test_helper'
 
-class StockTest < ActiveSuppor
+class StockTest < ActiveSupport::TestCase
+  # test "the truth" do
+  # 
