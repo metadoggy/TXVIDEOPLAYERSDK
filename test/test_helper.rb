@@ -1,1 +1,2 @@
-ENV['RAILS_ENV'] 
+ENV['RAILS_ENV'] ||= 'test'
+require File.expand_pa
