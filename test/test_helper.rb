@@ -1,3 +1,5 @@
 ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../../config/environment', __FILE__)
-r
+require 'rails/test_help'
+
+class Act
